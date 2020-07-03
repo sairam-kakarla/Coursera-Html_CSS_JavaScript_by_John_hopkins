@@ -7,37 +7,75 @@ div{
 	border:5px solid grey;
 	height: 200px;
 	box-sizing: border-box;
+	position: relative;
 
 }
 div>h2{
-	position: relative;
+	position: absolute;
+	right:0;
+	top: 0;
 	color: black;
-	right:-700px;
+	
 	background-color: white;
     width:100px;
     text-align: center;
     margin-top: 0;
     margin-right: 0;
+
 }
 p{
+	position:relative;
+	top:30px;
 	margin: 1%
-}
-@media(min-width: 992px)
-{
-
-}
-@media(min-width: 768px) and (max-width: 991px;)
-{
-
 }
 @media(max-width: 767px)
 {
 	div.col-sm-12
 	{ width: 100%
 	  margin-top:60px;
-      float: right;
-      margin-top: 10%;
+      color:green;
+      margin-top: 10px;
       margin-right: 10px;
       margin-left: 10px;
+      margin-bottom: 10px;
+      overflow: auto;
+      
 	}
+}
+@media(min-width: 992px)
+{
+     .col-lg-3
+     {  width:25%;
+     	float: right;
+        overflow: auto;
+     	color:blue;
+     	margin-right:6%;
+     }
+
+}
+@media(min-width: 768px) and (max-width: 991px)
+{
+   .col-md-6
+   { 
+   	
+   	width: 40%;
+   	color: yellow;
+   	overflow: auto;
+   	float: left;
+   	margin-left: 50px;
+   	margin-bottom: 60px;
+   }
+   #d2{
+   	float: right;
+    margin-right: 50px;
+    
+    }
+   div.col-md-12
+   {
+   	margin-left: 50px;
+   	margin-right: 50px;
+   	color: blue;
+   	overflow: auto;
+   	clear: both;
+   }
 }
