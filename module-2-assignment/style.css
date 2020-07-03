@@ -1,5 +1,43 @@
-h1
+h1{
+	text-align: center;
+}
+div{
+	color:white;
+	background-color: black;
+	border:5px solid grey;
+	height: 200px;
+	box-sizing: border-box;
+
+}
+div>h2{
+	position: relative;
+	color: black;
+	right:-700px;
+	background-color: white;
+    width:100px;
+    text-align: center;
+    margin-top: 0;
+    margin-right: 0;
+}
+p{
+	margin: 1%
+}
+@media(min-width: 992px)
 {
-	text-align: :center;
-	padding-right:50%;
+
+}
+@media(min-width: 768px) and (max-width: 991px;)
+{
+
+}
+@media(max-width: 767px)
+{
+	div.col-sm-12
+	{ width: 100%
+	  margin-top:60px;
+      float: right;
+      margin-top: 10%;
+      margin-right: 10px;
+      margin-left: 10px;
+	}
 }
