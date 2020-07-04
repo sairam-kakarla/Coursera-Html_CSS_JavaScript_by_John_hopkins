@@ -27,6 +27,8 @@ p{
 	top:30px;
 	margin: 1%;
 	font-family: "Times New Roman" ,Times ,Sans-serif;
+	padding:10px;
+	color:yellow;
 }
 #h21
 {
@@ -47,7 +49,6 @@ p{
 	div.col-sm-12
 	{ width: 100%
 	  margin-top:60px;
-      color:green;
       margin-top: 10px;
       margin-right: 10px;
       margin-left: 10px;
@@ -62,10 +63,12 @@ p{
      {  width:25%;
      	float: right;
         overflow: auto;
-     	color:blue;
      	margin-right:6%;
      	height:450px;
      }
+     p{
+   	font-size: 120%
+   }
 
 }
 @media(min-width: 768px) and (max-width: 991px)
@@ -74,7 +77,6 @@ p{
    { 
    	
    	width: 40%;
-   	color: yellow;
    	overflow: auto;
    	float: left;
    	margin-left: 50px;
@@ -89,8 +91,8 @@ p{
    {
    	margin-left: 50px;
    	margin-right: 50px;
-   	color: blue;
    	overflow: auto;
    	clear: both;
    }
+
 }
