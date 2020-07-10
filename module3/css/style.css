@@ -1,1 +1,24 @@
+body
+{
+	font-size:16px;
+	color: yellow;
+	background-color:orange;
 
+}
+
+#header-nav
+{
+	background-color: #61122f;
+	border-radius:0;
+	border:0;
+
+}
+
+.navbar-brand
+{
+	font-size:2.7vw;
+	color:orange;
+}
+.navbar-toggler{
+	background-color:orange;
+}
